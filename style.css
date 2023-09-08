@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Poppins&family=Source+Code+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+    color: white;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+#main-container{
+   width: 100%;
+   height: 100%;
+   display: flex;
+}
+
+#container-left{
+    width: 75%;
+    height: 100%;
+  
+   
+}
+#container-left-upper{
+    width: 100%;
+    height: 65%;
+    background-image: url(https://images.unsplash.com/photo-1501004318641-b39e6451bec6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1973&q=80);
+    background-size: cover;
+    background-position:    center;
+  
+
+}
+#container-left-lower{
+    display: flex;
+    width: 100%;
+    height: 35%;
+    background-color:#1c1f21;
+    padding: 35px 15% 5px 15%;
+    justify-content: space-between;
+
+}
+#container-left-lower-first{
+    width: 40%;
+   
+   
+}
+
+#container-left-lower-first h3{
+    font-size:2rem;
+    margin-top: -2px;
+}
+#container-left-lower-first p{
+    font-size:0.75rem;
+    color: #ffffffcd;
+    margin-top: 15px;
+}
+
+
+#container-left-lower-second{
+    width: 50%;
+   
+   
+}
+
+#heading{
+    width: 100%;
+    height: 25%;
+    /* background-color: #fff; */
+    padding-left: 30px;
+}
+#content{
+    width: 100%;
+    height: 66%;
+    /* background-color: red; */
+    padding: 0px 30px 0px 30px;
+    padding-top: 0px;
+}
+
+.box-wrapper{
+     display: flex;
+     align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 50%;
+}
+.box{
+    display: flex;
+    width: 40%;
+    height: 75%;
+    /* background-color: #fff; */
+}
+
+.box-item{
+    margin-left: 5px;
+}
+.box-item h6{
+    margin-left: 5px;
+    color: #ffffffcd;
+    padding-top: 5px;
+    margin-left: -2px;
+}
+
+.box-icon-main{
+    /* margin-left: 5px; */
+    color: #82b178;
+}
+
+
+
+
+
+
+
+
+
+
+
+#container-right{
+    width: 25%;
+    height: 100%;
+  
+}
+
+#container-right-upper{
+    width: 100%;
+    height: 65%;
+    background-color:#ffffff;
+
+}
+#container-right-lower{
+    width: 100%;
+    height: 35%;
+    
+    background-image: url(https://images.unsplash.com/photo-1504198266287-1659872e6590?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80);
+    background-size: cover;
+    background-position:    center;
+}
+
